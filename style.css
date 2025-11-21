@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/hd/soccer-players-tiw8eiksd9t7ah4h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#form-container{
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/1200px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg);
+   background-size: cover;
+   width: 450px;
+   height: auto;
+   border-radius: 20px;
+   padding: 10px;
+   
+}
+
+h1{
+    color: aliceblue;
+    font-size: 44px;
+    margin-bottom: 20px;
+
+}
+
+.inp-cont{
+   display: flex;
+   flex-direction: column;
+   color: white;
+   margin-top: 30px;
+}
+
+.inp-cont label,input{
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+}
+
+form button{
+    margin-top: 40px;
+    padding: 10px 30px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin-left: 100px;
+    background-color: rgb(113, 190, 113);
+    color: white;
+}
+
+form button:hover{
+    background-color: rgb(8, 8, 8);
+}
+
+
+h1:hover{
+    color: black;
+}
+
+body a{
+    color: white;
+}
+
+
+
+
+
+
+
